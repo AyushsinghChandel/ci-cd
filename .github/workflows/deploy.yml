@@ -26,3 +26,5 @@ jobs:
         push: true
         tags: l0gic588/ci-cd:latest
 
+    - name: Verify Pushed Image
+      run: docker pull l0gic588/ci-cd:latest  
