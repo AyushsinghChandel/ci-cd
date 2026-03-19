@@ -22,7 +22,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
-        file: ./docker/dockerfile.user 
+        file: docker/dockerfile.user
         push: true
         tags: l0gic588/ci-cd:latest
 
